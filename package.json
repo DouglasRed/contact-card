@@ -7,7 +7,7 @@
     "concurrently": "^7.4.0"
   },
   "engines": {
-    "node": "17.x"
+    "node": "16.16.0"
   },
   "scripts": {
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
